@@ -1,0 +1,69 @@
+body {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a3920, #3e5731); /* ბუნებრივი მწვანე ფერები */
+    color: #eae4c8; /* რბილი ოქროსფერი ტექსტისთვის */
+    line-height: 1.8;
+}
+
+.hero-page {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(26, 57, 32, 0.9); /* ტყის მწვანე გამჭვირვალობა */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(30, 74, 40, 0.6); /* ღრმა მწვანე ჩრდილი */
+    border: 1px solid #3c633f;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #d4b27c; /* ოქროსფერი */
+    text-shadow: 2px 2px 8px rgba(212, 178, 124, 0.7);
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #4b7a54; /* მწვანე-ყავისფერი */
+    box-shadow: 0 6px 12px rgba(43, 90, 58, 0.5);
+}
+
+.hero-info, .hero-abilities, .hero-powers {
+    margin-bottom: 15px;
+    background: rgba(60, 99, 63, 0.95); /* მუქი მწვანე */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #5a7e68; /* რბილი მწვანე */
+    box-shadow: 0 4px 8px rgba(34, 66, 40, 0.4);
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #f0d8a0; /* რბილი ოქროსფერი */
+    text-shadow: 1px 1px 5px rgba(240, 216, 160, 0.6);
+}
+
+p, ul {
+    font-size: 0.9rem;
+    color: #f7f4e4; /* ღია ოქროსფერი */
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding: 6px;
+    background: #305234; /* მუქი მწვანე */
+    border-radius: 5px;
+    color: #d7ceb5; /* რბილი ყავისფერი */
+    border-left: 4px solid #4b7a54; /* მწვანე-ყავისფერი */
+    list-style-type: none; /* <::marker> სტილის მოშლა */
+    margin-left: -2.5rem;
+}
+
+
+
